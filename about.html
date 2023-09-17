@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Of West London</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,600;0,700;1,200;1,300&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="./logo.png" alt="logo of uni">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" style="color: #010813;" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <LI><a href="course.html">COURSE</a></LI>
+                <li><a href="blog.html">BLOG</a></li>
+                <LI><a href="contact.html">CONTACT</a></LI>
+
+             </ul>
+
+
+
+
+            </div>
+            <i class="fa-solid fa-bars" style="color: #000000;" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+
+
+
+
+       
+    </section>
+    <!-------About Us Content---------->
+    <section class="About-Us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university.</h1>
+            <p>Welcome to our prestigious university, where excellence in education meets a vibrant community of scholars, learners, and innovators. With a rich heritage of academic achievement, we are committed to nurturing the next generation of leaders and thinkers. Our world-class faculty, state-of-the-art facilities, and diverse range of programs create an inspiring environment for intellectual exploration and personal growth. Join us in this journey of discovery, where the pursuit of knowledge knows no bounds. Together, we strive for excellence, embrace diversity, and shape a brighter future.</p>
+            <a href="" class="but"> Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="./about.jpg" alt="">
+            
+        </div>
+        
+
+
+
+
+    </div>
+
+
+
+
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Discover our university's rich history and  commitment to academic excellence. <br> Explore our diverse programs and dedicated faculty. <br> Join our community of passionate learners and thinkers.</p>
+        <div class="iconss">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter fa-xl" style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        </div>
+        <br>
+        <p>Made with <i class="fa-solid fa-heart" style="color: #ff0f0f;"> </i> by Arhaan.</p>
+    </section>
+
+
+<!-------Javascript for toggle menu---------->
+  
+   <script>
+
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+             navLinks.style.right ="0";
+
+          }
+          function hideMenu(){
+            navLinks.style.right ="-200px";
+          }
+
+
+
+
+   </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Of West London</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,600;0,700;1,200;1,300&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="./logo.png" alt="logo of uni">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" style="color: #010813;" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <LI><a href="course.html">COURSE</a></LI>
+                <li><a href="blog.html">BLOG</a></li>
+                <LI><a href="contact.html">CONTACT</a></LI>
+
+             </ul>
+
+
+
+
+            </div>
+            <i class="fa-solid fa-bars" style="color: #000000;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+
+
+
+
+
+       
+    </section>
+    <!-------Course Content---------->
+    <section class="COURSE">
+        <h1>Courses we offer</h1>
+        <p>Explore our diverse courses designed for all levels of expertise. <br> From foundations to specialties, <br> we've got you covered. Start your journey of knowledge and growth today</p>
+            
+        <div class="row">
+            <div class="course-col">
+                <h3>Foundation</h3>
+                <p>Discover our foundational course, a cornerstone of our academic offerings. This program equips students with essential skills and knowledge across diverse subjects, fostering critical thinking and communication abilities. With expert guidance and interactive learning, students embark on a path to future academic success and personal growth</p>
+            </div>
+    
+            <div class="course-col">
+                <h3>Bachelors</h3>
+                <p>Celebrate the journey to advanced knowledge with our bachelor's degree programs. Our bachelor's courses provide in-depth exploration and specialization in various fields. With expert faculty, practical experience, and a dynamic learning environment, students are well-prepared for career success and continued academic achievement.</p>
+            </div>
+    
+            <div class="course-col">
+                <h3>Masters</h3>
+                <p>Elevate your expertise with our master's degree programs. These advanced courses offer in-depth specialization and research opportunities in your chosen field. Our renowned faculty, cutting-edge resources, and collaborative environment empower students to excel in their careers and become leaders in their respective fields</p>
+            </div>
+        </div>
+        </section>
+        <!-------facilities---------->
+        <section class="facilities">
+            <h1>Facilities</h1>
+            <p>Experience top-notch facilities at our university, designed to enrich your learning journey. From state-of-the-art labs to vibrant libraries, we've got your academic needs covered.</p>
+            
+            <div class="row">
+               <div class="facilities-col">
+                   <img src="./library.png" alt="">
+                   <h3>Your Library</h3>
+                   <p>Welcome to one of the finest world class libraries in the world.</p>
+               </div>
+       
+               <div class="facilities-col">
+                   <img src="./basketball.png" alt="">
+                   <h3>Sports Centre</h3>
+                   <p>Studies are important but taking care of your fitness is also our responsibilty.</p>
+               </div>
+       
+               <div class="facilities-col">
+                   <img src="./cafeteria.png" alt="">
+                   <h3>Cafeteria</h3>
+                   <p>Here's a place to chill out with your friends.</p>
+               </div>
+       
+            </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+        <!-------footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Discover our university's rich history and  commitment to academic excellence. <br> Explore our diverse programs and dedicated faculty. <br> Join our community of passionate learners and thinkers.</p>
+        <div class="iconss">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter fa-xl" style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        </div>
+        <br>
+        <p>Made with <i class="fa-solid fa-heart" style="color: #ff0f0f;"> </i> by Arhaan.</p>
+    </section>
+
+
+<!-------Javascript for toggle menu---------->
+  
+   <script>
+
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+             navLinks.style.right ="0";
+
+          }
+          function hideMenu(){
+            navLinks.style.right ="-200px";
+          }
+
+
+
+
+   </script>
+    
+
+</body>
+</html>
